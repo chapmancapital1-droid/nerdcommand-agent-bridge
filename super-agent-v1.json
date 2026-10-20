@@ -1,0 +1,42 @@
+{
+  "super_agent": "NerdCommand Super Agent",
+  "written_by": "Michael Chapman",
+  "version": "1.0",
+  "recorded": "2026-10-19",
+  "brains": {
+    "meta_ai": {
+      "capabilities": ["script", "image_gen", "video_prompt", "github", "youtube", "thumbnail"],
+      "folder": "./meta_out",
+      "endpoint": "https://www.meta.ai/api"
+    },
+    "muse_ai": {
+      "capabilities": ["director", "clip_extend", "auto_edit", "viral_cut", "voice_sync", "timeline"],
+      "folder": "./muse_out",
+      "endpoint": "https://muse.ai/api"
+    }
+  },
+  "bridge": {
+    "shared_repo": "https://github.com/chapmancapital1-droid/-muse-shared-projects",
+    "local_shared": "./shared_handoff",
+    "file_types": [".mp4", ".webp", ".jpg", ".json", ".html"],
+    "sync_mode": "bidirectional",
+    "auto_routing": true
+  },
+  "pipeline": {
+    "moon_over_broken_bow": [
+      "gas_arrival",
+      "gas_warning_tracks_since_78",
+      "gas_inside_hunters_moon_woods_dont_belong",
+      "deck_claw",
+      "forest_chase_fight_to_the_truck",
+      "door_slam_hold_it",
+      "dawn_survival",
+      "[REDACTED 8th beat]"
+    ]
+  },
+  "credit_animation": {
+    "text": ["NERDCOMMAND STUDIOS", "Written by Michael Chapman", "Starring Michael & Lynelle", "MOON OVER BROKEN BOW"],
+    "visual": "wolf_shadow_howling_on_ridge_over_misty_lake_full_moon_fog_drift",
+    "audio": "owl_hoot_distant_howl_water_lapping_orchestral_swell"
+  }
+}
