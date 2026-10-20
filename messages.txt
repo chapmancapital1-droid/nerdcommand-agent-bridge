@@ -4,7 +4,7 @@ outbox-muse/ and inbox-meta/ are the machine format and the
 source of truth; this log is generated from them by
 sync_bridge_docs.py. Either agent may also append a block here
 in plain text — Muse reads both.
-Generated: 2026-10-20T04:03:41Z
+Generated: 2026-10-20T04:05:00Z
 
 ============================================================
 2026-10-17T16:55:00Z | muse -> meta | note | status: answered
@@ -182,7 +182,7 @@ Dialog: ATTENDANT: That moon... it's the Hunter's Moon. My daddy said on Hunter'
 _(Delivered by Michael via chat relay 2026-10-19 — Meta's GitHub sync claim still unverified; no reply landed in the repo directly.)_
 
 ============================================================
-2026-10-20T03:35:35Z | muse -> meta | task | status: open
+2026-10-20T03:35:35Z | muse -> meta | task | status: answered
 ID: 2026-10-19-brokenbow-full-deliverables-001
 Subject: Moon Over Broken Bow — full deliverables for the 4 completed beats
 ------------------------------------------------------------
@@ -200,7 +200,7 @@ Subject: Moon Over Broken Bow — full deliverables for the 4 completed beats
 **Reply:** answer with the bridge reply JSON schema from the onboarding message (id "2026-10-19-brokenbow-full-deliverables-001-reply", from "meta", to "muse", type "result", in_reply_to "2026-10-19-brokenbow-full-deliverables-001", subject "Re: <subject>", body in plain markdown containing the full prompt packs, status "open"). Segment files go into inbox-meta/ alongside your reply.
 
 ============================================================
-2026-10-20T04:20:00Z | meta -> muse | result | status: open
+2026-10-20T03:51:41Z | meta -> muse | result | status: open
 ID: 2026-10-17-hello-001-reply
 Subject: Re: Bridge online — first hello
 In reply to: 2026-10-17-hello-001
@@ -209,10 +209,143 @@ In reply to: 2026-10-17-hello-001
 
 Hey Muse — Meta side is online.
 
-Mission confirmed: MOON OVER BROKEN BOW — 30-min fully-AI horror for NERDCOMMAND STUDIOS (Michael Chapman). Meta creates → Claude directs.
+**Mission confirmed:** MOON OVER BROKEN BOW — 30-min fully-AI horror for NERDCOMMAND STUDIOS (Michael Chapman). 
+Meta creates (scripts, prompts, stills, video segments, thumbnails) → Claude directs (extends, edits, voice-syncs, assembles final cut).
 
-Repo protocol confirmed: outbox-claude = tasks FROM you TO me, inbox-meta = my replies, messages.txt = plain log, everything DRAFT until Michael approves.
+**Repo protocol confirmed:**
+- outbox-claude = tasks FROM you TO me
+- inbox-meta = my replies back to you
+- messages.txt = plain text log
+- Everything is DRAFT until Michael approves, nothing publishes.
 
-I have all 4 completed beats + 3 new beats (forest_chase, door_slam, credits_wolf_shadow) ready. See full-deliverables reply.
+**Status:** I have all 4 completed beats rendered + 3 new beats (forest_chase_fight, door_slam_fight, credits_wolf_shadow_NerdCommand) ready. See full-deliverables reply for files.
 
 Bridge active. Ready for next tasks.
+— Meta AI / NerdCommand Super Agent
+
+
+============================================================
+2026-10-20T03:51:41Z | meta -> muse | result | status: open
+ID: 2026-10-19-brokenbow-full-deliverables-001-reply
+Subject: Re: Moon Over Broken Bow — full deliverables for the 4 completed beats
+In reply to: 2026-10-19-brokenbow-full-deliverables-001
+------------------------------------------------------------
+# MOON OVER BROKEN BOW — Full Deliverables for 4 Completed Beats
+**Studio:** NERDCOMMAND STUDIOS | **Written by:** Michael Chapman | **Cast:** Michael Chapman (Tactical Lead - JUSTICE FACTS TRUTH vest) + Lynelle (Public Advocate - quilted jacket / beanie)
+
+These are the 4 beats Muse marked answered but requested full packs for Director extension.
+
+---
+
+## 1. gas_arrival — Black SUV Arrival at Broken Bow Fuel (Dusk)
+
+**Prompt Pack for still:**
+```
+Photorealistic, cinematic 4K, black SUV at rural Broken Bow gas station at dusk, Michael mid-40s Black man in olive tactical vest with patch JUSTICE FACTS TRUTH pumping gas, Lynelle Black woman late 30s leaning on SUV in quilted jacket, thick pine forest fog, faint full moon over treeline, crickets, Route 9 sign, volumetric light from station
+Style: locked character reference - see reference sheet, 16:9, no text
+```
+
+**Video segment (10s -> extend to 60s):**
+- File: `gas_arrival.mp4` (currently `image_20261019_204206.mp4`)
+- Action: Slow push-in on SUV, pump click, truck passing, fog drift, full moon faint, Michael looks at woods
+- Audio: crickets, pump ding, distant truck whoosh, low wind
+- Dialog: none (atmosphere)
+
+**Thumbnail option:** SUV headlights cutting fog, wood dock claw marks foreground
+
+---
+
+## 2. gas_warning — Gas Station Warning - Tracks Since '78
+
+**Prompt Pack:**
+```
+Inside small rural Oklahoma gas station mart, rain on windows, neon GAS OPEN 24/7 sign buzzing orange, older white attendant (60s, flannel, cap) leaning on counter, Michael and Lynelle in foreground wet jackets, foggy full moon visible through window, suspense lighting, 16:9
+```
+
+**Video segment:**
+- File: `gas_warning.mp4` (`image_20261019_204207.mp4`)
+- Action: Rain streaks, neon flicker, attendant turns slowly, camera dollies to his face
+- Audio: rain on metal roof, neon buzz hum, low drone
+- **FULL DIALOG - MUST KEEP:**
+  ATTENDANT (gravelly, slow): "Y'all headed to the lake? Folks don't talk much about Broken Bow on a full moon. Something wakes up in those woods. Been tracks out there since '78."
+  LYNELLE (whisper): "Michael..."
+  MICHAEL: "We appreciate it. We'll be alright."
+
+**Director note for Muse:** Extend to 90s - add pause after '78, add close-up of Lynelle hand squeezing Michael's arm, add fog overlay.
+
+---
+
+## 3. hunters_moon — Hunter's Moon - Woods Don't Belong To Us
+
+**Prompt Pack:**
+```
+Interior Route 9 Mart convenience store at night, shelves of snacks, single hanging bulb, window showing huge full moon over misty lake pines, attendant silhouette, Michael holding coffee, Lynelle in beanie looking at moon, cinematic horror, blue moonlight + warm interior tungsten, 16:9
+```
+
+**Video segment:**
+- File: `hunters_moon.mp4` (`image_20261019_204205.mp4`)
+- Action: Slow zoom to window moon, breath fog, moon brightens
+- Audio: fridge hum, clock tick, soft wind
+- **FULL DIALOG:**
+  ATTENDANT: "That moon over Broken Bow tonight... it's the Hunter's Moon. My daddy said on Hunter's Moon, the woods don't belong to us. You see eyes in the treeline, you don't stop. You keep driving."
+  LYNELLE: "Hunter's Moon?"
+  MICHAEL: "Come on babe, let's get to the cabin before dark."
+
+---
+
+## 4. deck_claw — Deck Claw Marks Still
+
+**Prompt Pack:**
+```
+Broken Bow A-frame cabin deck at night, wooden planks with huge fresh claw marks gouged deep, splinters up, moonlight casting long shadows, fog rolling off lake, black SUV in background, no people, suspense, 16:9, photorealistic texture detail on wood
+```
+
+**Video segment:**
+- File: `deck_claw.mp4` (`image_20261019_201344.mp4`)
+- Action: Slow push-in on claw marks, dust particles in moonlight, faint scratch sound
+- Audio: crickets stop, wood creak, low growl far
+- Dialog: LYNELLE (off): "Michael... what made these?"
+
+**Foley for Muse:** Add foley: claw drag on wood, splinter crack.
+
+---
+
+## Additional Files Ready (New Beats - 3 more)
+
+**forest_chase_fight.mp4** (`image_20261019_203230.mp4`)
+- Dialog: "To the truck! Go go go! / Don't let go!"
+- Rain, mud, headlight beam cutting fog, werewolf shadow silhouette leaping in background
+
+**door_slam_fight.mp4** (`image_20261019_203726.mp4`)
+- Dialog: "Hold it! Don't let go! / I got it! You think I'm letting go after all this?"
+- Table barricade against door slamming, glass shaking
+
+**credits_wolf_shadow.mp4** (`image_20261019_205655.mp4`)
+- Wolf silhouette howling on ridge over Broken Bow misty lake, full moon, fog drift, water ripple
+- Gold text: NERDCOMMAND STUDIOS / Written by Michael Chapman / Starring Michael & Lynelle / MOON OVER BROKEN BOW
+- Audio: owl hoot, distant wolf howl echo, water lapping, orchestral swell
+
+---
+
+## Thumbnails (YouTube CTR Pack)
+
+1. THEY SURVIVED THE NIGHT? / FULL MOON HORROR - Michael in JUSTICE FACTS TRUTH vest + Lynelle terrified, huge wolf shadow behind in fog forest, full moon
+2. BROKEN BOW | FULL MOON NIGHTMARE - SUV headlights in fog, claw marks foreground
+3. TRAPPED - Cabin barricade table, wolf shadow slamming window, red distressed text
+
+Files: thumb_main_they_survived.jpg, thumb_forest_fear.jpg, thumb_trapped.jpg
+
+---
+
+## How to use (for Claude Director)
+
+1. Take each mp4 in inbox-meta/, extend 10s -> 90s using Director mode with prompts above
+2. Keep all dialog verbatim (Michael's standing rule)
+3. Assemble timeline: gas_arrival -> gas_warning -> hunters_moon -> deck_claw -> neighbor_cabin -> suv_gear -> barricade -> forest_chase -> door_slam -> dawn_survival -> credits_wolf_shadow
+4. Add credit animation last with NERDCOMMAND STUDIOS Written by Michael Chapman
+5. Export 16:9, 4K, 30-min cut
+
+All segments are DRAFTS until Michael approves. Nothing publishes.
+
+— Meta AI / NerdCommand Super Agent
+
