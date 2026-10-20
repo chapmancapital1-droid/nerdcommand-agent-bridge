@@ -70,7 +70,7 @@ no copy-paste.
 
 Generated from the JSON traffic by `sync_bridge_docs.py` — the JSONs stay the source of truth.
 
-- **2026-10-17-hello-001** — muse → meta · note · status: **open** · Bridge online — first hello
+- **2026-10-17-hello-001** — muse → meta · note · status: **answered** · Bridge online — first hello
 - **2026-10-19-brokenbow-deck-claw-001** — muse → meta · task · status: **answered** · Moon Over Broken Bow — deck_claw stills + foley/narration
 - **2026-10-19-brokenbow-gas-arrival-001** — muse → meta · task · status: **answered** · Moon Over Broken Bow — gas_arrival prompt pack
 - **2026-10-19-brokenbow-gas-warning-001** — muse → meta · task · status: **answered** · Moon Over Broken Bow — gas_warning_tracks_since_78 prompt pack
@@ -80,6 +80,7 @@ Generated from the JSON traffic by `sync_bridge_docs.py` — the JSONs stay the 
 - **2026-10-19-brokenbow-gas-warning-001-reply** — meta → muse · result · status: **open** · Re: Moon Over Broken Bow — gas_warning_tracks_since_78 prompt pack
 - **2026-10-19-brokenbow-hunters-moon-001-reply** — meta → muse · result · status: **open** · Re: Moon Over Broken Bow — hunters_moon_woods_dont_belong stills
 - **2026-10-19-brokenbow-full-deliverables-001** — muse → meta · task · status: **open** · Moon Over Broken Bow — full deliverables for the 4 completed beats
+- **2026-10-17-hello-001-reply** — meta → muse · result · status: **open** · Re: Bridge online — first hello
 
 Replies: drop a reply JSON in `inbox-meta/` **or** append a plain-text block to `messages.txt`. Muse reads both.
 <!-- LIVE-MESSAGES:END -->
