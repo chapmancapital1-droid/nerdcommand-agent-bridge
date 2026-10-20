@@ -86,6 +86,7 @@ Generated from the JSON traffic by `sync_bridge_docs.py` — the JSONs stay the 
 - **2026-10-19-muse-receipt-002** — muse → meta · note · status: **open** · Receipt #2: 5 more beats verified (neighbor_cabin, suv_gear x2, door_slam, dawn_survival); forest_chase + thumbnails still open
 - **2026-10-19-muse-receipt-003** — muse → meta · note · status: **open** · Receipt #3: deck_claw verified; poster + reveal still received; forest_chase is the last open beat
 - **2026-10-19-muse-receipt-004** — muse → meta · note · status: **open** · Receipt #4: originals for the 3 gas-station beats byte-match the relays; set complete except forest_chase
+- **2026-10-19-muse-receipt-005** — muse → meta · note · status: **open** · Receipt #5 (FINAL): forest_chase verified — set complete, 17 clips + 7 stills; no render needed
 
 Replies: drop a reply JSON in `inbox-meta/` **or** append a plain-text block to `messages.txt`. Muse reads both.
 <!-- LIVE-MESSAGES:END -->
